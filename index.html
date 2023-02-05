@@ -10,23 +10,28 @@
         <link rel="stylesheet" href="assets/style/output.css" />       
     </head>
     <body>
-        <header class="Prose bg-[url(../img/headerBg.png)] bg-cover bg-no-repeat">
-            <div class="flex items-center justify-between gap-4 py-2.5 lg:py-5">
-                <div class="flex items-center gap-x-5">
-                    <img src="assets/img/logo.svg" alt="" />
+        <header class="Prose bg-[url(../img/headerBg.png)] bg-cover bg-no-repeat">            
+            <div class="menu-box flex items-center justify-between gap-4 py-2.5 lg:py-5 group" >
+                <div class="flex items-center gap-x-5 z-20">
+                    <button class="md:hidden btn-menu h-3 w-[18px] flex flex-col justify-between shrink-0 mr-12 ">
+                        <span class="w-full h-[1.5px] rounded bg-white group-[.active]:bg-[#3C3D41]"></span>
+                        <span class="w-full h-[1.5px] rounded bg-white group-[.active]:bg-[#3C3D41]"></span>
+                        <span class="w-full h-[1.5px] rounded bg-white group-[.active]:bg-[#3C3D41]"></span>
+                    </button>
+                    <img src="assets/img/logo.svg" class="w-12 md:w-16" alt="" />
                     <div>
-                        <p class="font-CormorantUnicase text-2xl font-semibold text-white">Экскурсии в Костроме</p>
-                        <p class="mt-1 text-[rgba(255,255,255,0.54)]">Обзорые экскурсии города</p>
+                        <p class="font-CormorantUnicase text-lg md:text-2xl font-semibold text-white group-[.active]:text-[#3C3D41] transition-colors ease-linear duration-500 delay-500 ">Экскурсии в Костроме</p>
+                        <p class="mt-1 text-[rgba(255,255,255,0.54)] max-md:text-xs  group-[.active]:text-[#3C3D41] transition-colors ease-linear duration-500 delay-500 ">Обзорые экскурсии города</p>
                     </div>
                 </div>
-                <nav class="flex items-center gap-6 text-[0.9375rem] tracking-wider text-white max-lg:hidden">
-                    <a href="#" class="uppercase hover-link">гЛАВНАЯ</a>
-                    <a href="#" class="uppercase hover-link">Экскурсии</a>
-                    <a href="#" class="uppercase hover-link">кАТАЛОГ товаров</a>
-                    <a href="#" class="uppercase hover-link">О нас</a>
-                    <a href="#" class="uppercase hover-link">Отзывы</a>
-                    <a href="#" class="uppercase hover-link">Помощь</a>
-                    <a href="#" class="uppercase hover-link">кОНТАКТЫ</a>
+                <nav class="max-md:pt-24 z-10 menu flex items-center max-md:gap-8 gap-6 text-[0.9375rem] transition-transform duration-500 ease-linear tracking-wider text-white max-md:h-screen max-md:absolute top-0 left-0 max-md:group-[.active]:translate-y-0 max-md:-translate-y-full max-md:flex-col max-md:w-full max-md:bg-nav">
+                    <a href="#" class="uppercase hover-link max-md:text-[#3C3D41] max-md:text-2xl">гЛАВНАЯ</a>
+                    <a href="#" class="uppercase hover-link max-md:text-[#3C3D41] max-md:text-2xl">Экскурсии</a>
+                    <a href="#" class="uppercase hover-link max-md:text-[#3C3D41] max-md:text-2xl">кАТАЛОГ товаров</a>
+                    <a href="#" class="uppercase hover-link max-md:text-[#3C3D41] max-md:text-2xl">О нас</a>
+                    <a href="#" class="uppercase hover-link max-md:text-[#3C3D41] max-md:text-2xl">Отзывы</a>
+                    <a href="#" class="uppercase hover-link max-md:text-[#3C3D41] max-md:text-2xl">Помощь</a>
+                    <a href="#" class="uppercase hover-link max-md:text-[#3C3D41] max-md:text-2xl">кОНТАКТЫ</a>
                 </nav>
             </div>
             <!-- Slider main container -->
@@ -332,10 +337,10 @@
         <footer class="footer Prose bg-[#2E2F35] pb-4 md:pb-32 pt-7 md:pt-12">
             <div class="flex items-center justify-between gap-4 py-2.5 lg:py-5">
                 <div class="flex items-center gap-x-5">
-                    <img src="assets/img/logo.svg" alt="" />
+                    <img src="assets/img/logo.svg" class="w-12 md:w-16" alt="" />
                     <div>
-                        <p class="font-CormorantUnicase text-2xl font-semibold text-white">Экскурсии в Костроме</p>
-                        <p class="mt-1 text-[rgba(255,255,255,0.54)]">Обзорые экскурсии города</p>
+                        <p class="font-CormorantUnicase text-lg md:text-2xl font-semibold text-white">Экскурсии в Костроме</p>
+                        <p class="mt-1 text-[rgba(255,255,255,0.54)] max-md:text-xs">Обзорые экскурсии города</p>
                     </div>
                 </div>
                 <nav class="flex items-center gap-6 text-[0.9375rem] max-md:hidden tracking-wider text-white max-lg:hidden">
@@ -356,6 +361,7 @@
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
         <script src="assets/scripts/swipers.js"></script>
+        <script src="assets/scripts/main.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
     </body>
 </html>
