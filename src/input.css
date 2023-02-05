@@ -1,3 +1,54 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&display=swap');
+
+@layer components{
+    .bg-about{
+        background: url(../img/img7.png) no-repeat bottom left, url(../img/aboutBg.png) 100% 100%;                
+    }
+    
+    .wrapper{
+        @apply max-w-[1460px] mx-auto w-full
+    }
+}
+
+@layer utilities{
+    .hover-link{
+        @apply transition-opacity ease-linear duration-500 hover:opacity-50
+    }
+    
+    body{
+        @apply font-sans
+    }
+
+    .container{
+        @apply max-w-[1440px]
+    }
+
+    .Prose{
+        grid-template-columns: [full-start] minmax(10px, 1fr) [main-start] minmax(0, 1440px) [main-end] minmax(10px, 1fr) [full-end];
+        @apply grid
+    }
+
+    .Prose>*{
+        grid-column: main;
+    }
+
+    .g-full{
+        grid-column: full;
+    }
+
+    .mySwiper .swiper-pagination{
+        @apply w-auto bottom-0 left-0 
+    }
+
+    .mySwiper .swiper-pagination-bullet{
+        @apply opacity-25 transition-all duration-500 ease-linear bg-white cursor-pointer hover:opacity-100 hover:bg-[#E25C45]
+    }
+
+    .mySwiper .swiper-pagination-bullet-active{
+        @apply bg-[#E25C45] opacity-100
+    }    
+}

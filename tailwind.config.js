@@ -1,8 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./pages/**/*.{html,js}','./index.html'],
+  content: ["./pages/**/*.{html,js}", "./index.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        CormorantUnicase: ["CormorantUnicase", "serif"],
+      },
+    },
   },
   plugins: [],
-}
+};

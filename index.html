@@ -1,12 +1,361 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Главная</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="assets/style/output.css" />       
+    </head>
+    <body>
+        <header class="Prose bg-[url(../img/headerBg.png)] bg-cover bg-no-repeat">
+            <div class="flex items-center justify-between gap-4 py-2.5 lg:py-5">
+                <div class="flex items-center gap-x-5">
+                    <img src="assets/img/logo.svg" alt="" />
+                    <div>
+                        <p class="font-CormorantUnicase text-2xl font-semibold text-white">Экскурсии в Костроме</p>
+                        <p class="mt-1 text-[rgba(255,255,255,0.54)]">Обзорые экскурсии города</p>
+                    </div>
+                </div>
+                <nav class="flex items-center gap-6 text-[0.9375rem] tracking-wider text-white max-lg:hidden">
+                    <a href="#" class="uppercase hover-link">гЛАВНАЯ</a>
+                    <a href="#" class="uppercase hover-link">Экскурсии</a>
+                    <a href="#" class="uppercase hover-link">кАТАЛОГ товаров</a>
+                    <a href="#" class="uppercase hover-link">О нас</a>
+                    <a href="#" class="uppercase hover-link">Отзывы</a>
+                    <a href="#" class="uppercase hover-link">Помощь</a>
+                    <a href="#" class="uppercase hover-link">кОНТАКТЫ</a>
+                </nav>
+            </div>
+            <!-- Slider main container -->
+            <div class="swiper mySwiper mx-0 mt-24 mb-32 h-auto max-w-3xl pb-4 lg:mb-48">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="w-fit rounded bg-[rgba(255,255,255,0.21)] px-3.5 py-0.5 text-xs font-semibold uppercase tracking-[0.15em] text-[rgba(255,255,255,0.85)] backdrop-blur-md lg:py-1.5 lg:text-sm">Экскурсия №1</div>
+                        <h2 class="mt-2.5 font-CormorantUnicase text-3xl font-medium text-white lg:mt-5 lg:text-6xl">Автобусно – пешеходная экскурсия по городу Костроме</h2>
+                        <div><img src="assets/img/img.svg" alt="" class="mt-2.5 lg:mt-4" /></div>
+                        <p class="mt-5 max-w-xl text-[rgba(255,255,255,0.85)] max-lg:text-sm lg:mt-7">Экскурсия "Предприниматели и меценаты Костромской земли" предлагает организацию мероприятий, формат которых будет сочетать экскурсию с тематическим спектаклем на тему истории проекта. Экскурсионный проект «Предприниматели и меценаты Костромской земли» - своего рода, скромная дань признания славным делам, упорному труду на ниве милосердия костромских предпринимателей и меценатов.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="w-fit rounded bg-[rgba(255,255,255,0.21)] px-3.5 py-0.5 text-xs font-semibold uppercase tracking-[0.15em] text-[rgba(255,255,255,0.85)] backdrop-blur-md lg:py-1.5 lg:text-sm">Экскурсия №1</div>
+                        <h2 class="mt-2.5 font-CormorantUnicase text-3xl font-medium text-white lg:mt-5 lg:text-6xl">Автобусно – пешеходная экскурсия по городу Костроме</h2>
+                        <div><img src="assets/img/img.svg" alt="" class="mt-2.5 lg:mt-4" /></div>
+                        <p class="mt-5 max-w-xl text-[rgba(255,255,255,0.85)] max-lg:text-sm lg:mt-7">Экскурсия "Предприниматели и меценаты Костромской земли" предлагает организацию мероприятий, формат которых будет сочетать экскурсию с тематическим спектаклем на тему истории проекта. Экскурсионный проект «Предприниматели и меценаты Костромской земли» - своего рода, скромная дань признания славным делам, упорному труду на ниве милосердия костромских предпринимателей и меценатов.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="w-fit rounded bg-[rgba(255,255,255,0.21)] px-3.5 py-0.5 text-xs font-semibold uppercase tracking-[0.15em] text-[rgba(255,255,255,0.85)] backdrop-blur-md lg:py-1.5 lg:text-sm">Экскурсия №1</div>
+                        <h2 class="mt-2.5 font-CormorantUnicase text-3xl font-medium text-white lg:mt-5 lg:text-6xl">Автобусно – пешеходная экскурсия по городу Костроме</h2>
+                        <div><img src="assets/img/img.svg" alt="" class="mt-2.5 lg:mt-4" /></div>
+                        <p class="mt-5 max-w-xl text-[rgba(255,255,255,0.85)] max-lg:text-sm lg:mt-7">Экскурсия "Предприниматели и меценаты Костромской земли" предлагает организацию мероприятий, формат которых будет сочетать экскурсию с тематическим спектаклем на тему истории проекта. Экскурсионный проект «Предприниматели и меценаты Костромской земли» - своего рода, скромная дань признания славным делам, упорному труду на ниве милосердия костромских предпринимателей и меценатов.</p>
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </header>
+        <main class="Prose">
+            <div class="g-full Prose overflow-hidden">
+                <div class="mt-14 lg:mt-24 wrapper">
+                    <div class="flex max-sm:flex-col max-sm:items-start items-end justify-between gap-4 ">
+                        <h2 class="font-CormorantUnicase text-3xl font-medium text-[#3C3D41] lg:text-5xl">Наши <br />экскурсии</h2>
+                        <div class="flex gap-8">
+                            <label class="flex items-center gap-2 font-semibold text-[#3C3D41]"><input type="radio" name="radio1" class="focus:ring-[#E25C45] focus:border-[#E25C45] checked:bg-[#E25C45]" /> Групповые</label>
+                            <label class="flex items-center gap-2 font-semibold text-[#3C3D41]"><input type="radio" name="radio1" class="focus:ring-[#E25C45] focus:border-[#E25C45] checked:bg-[#E25C45]" /> Индивидуальные</label>
+                        </div>
+                    </div>
+                    <div class="swiper mySwiper2 mt-8 md:mt-2 pt-4 -mx-6 px-6 pb-8 lg:pb-24">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide overflow-hidden flex flex-col h-auto rounded-sm bg-white text-[#3C3D41] shadow-[0_4px_30px_0_rgba(0,0,0,0.12)]">
+                                <div class="relative">
+                                    <img src="assets/img/img1.png" alt="" class="aspect-[16/11] w-full object-cover" />
+                                    <div class="absolute top-4 left-3 w-fit rounded bg-[rgba(255,255,255,0.21)] px-3.5 py-0.5 text-xs font-semibold uppercase tracking-[0.15em] text-[rgba(255,255,255,0.85)] backdrop-blur-md max-md:hidden lg:py-1.5 lg:text-sm">Экскурсия №1</div>
+                                </div>
+                                <div class="p-2 pt-0 md:p-8 flex flex-col grow">
+                                    <h3 class="mt-5 text-2xl font-medium md:text-3xl">Предприниматели Костромской земли</h3>
+                                    <p class="mt-4 text-sm md:text-base">На средства костромских купцов и промышленников были построены в Костроме учебные заведения, больницы</p>
+                                    <div class="mb-4 md:mb-7 mt-4 flex flex-col gap-y-2 md:gap-y-3 text-sm md:mt-7 md:text-base">
+                                        <div class="flex ">
+                                            <p>Продолжительность</p>
+                                            <div class="mb-1 grow border-b-2 border-dotted border-[rgba(60,61,65,0.3)]"></div>
+                                            <p>2 часа</p>
+                                        </div>
+                                        <div class="flex ">
+                                            <p>Начало</p>
+                                            <div class="mb-1 grow border-b-2 border-dotted border-[rgba(60,61,65,0.3)]"></div>
+                                            <p>11:00, 16:00</p>
+                                        </div>
+                                        <div class="flex ">
+                                            <p>Стоимость</p>
+                                            <div class="mb-1 grow border-b-2 border-dotted border-[rgba(60,61,65,0.3)]"></div>
+                                            <p>2 000 руб.</p>
+                                        </div>
+                                        <div class="flex">
+                                            <p>Индивидуальная</p>
+                                            <div class="mb-1 grow border-b-2 border-dotted border-[rgba(60,61,65,0.3)]"></div>
+                                            <p>1-10 чел.</p>
+                                        </div>
+                                    </div>
+                                    <button class="mt-auto self-end flex w-full items-center justify-center gap-3 rounded bg-[#E25C45] p-5 text-sm font-semibold text-white transition duration-500 hover:bg-[#f75134]  md:text-base"><img src="assets/img/ticket.svg" alt="" class="shrink-0" /> Купить билет</button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide overflow-hidden flex flex-col h-auto rounded-sm bg-white text-[#3C3D41] shadow-[0_4px_30px_0_rgba(0,0,0,0.12)]">
+                                <div class="relative">
+                                    <img src="assets/img/img2.png" alt="" class="aspect-[16/11] w-full object-cover" />
+                                    <div class="absolute top-4 left-3 w-fit rounded bg-[rgba(255,255,255,0.21)] px-3.5 py-0.5 text-xs font-semibold uppercase tracking-[0.15em] text-[rgba(255,255,255,0.85)] backdrop-blur-md max-md:hidden lg:py-1.5 lg:text-sm">Экскурсия №2</div>
+                                </div>
+                                <div class="p-2 pt-0 md:p-8 flex flex-col grow">
+                                    <h3 class="mt-5 text-2xl font-medium md:text-3xl">Дом городского головы Г.Н. Ботникова</h3>
+                                    <p class="mt-4 text-sm md:text-base">На средства костромских купцов и промышленников были построены в Костроме учебные заведения, больницы</p>
+                                    <div class="mb-4 md:mb-7 mt-4 flex flex-col gap-2 text-sm md:mt-7 md:text-base">
+                                        <div class="flex gap-y-2 md:gap-y-3">
+                                            <p>Продолжительность</p>
+                                            <div class="mb-1 grow border-b-2 border-dotted border-[rgba(60,61,65,0.3)]"></div>
+                                            <p>2 часа</p>
+                                        </div>
+                                        <div class="flex gap-y-2 md:gap-y-3">
+                                            <p>Начало</p>
+                                            <div class="mb-1 grow border-b-2 border-dotted border-[rgba(60,61,65,0.3)]"></div>
+                                            <p>11:00, 16:00</p>
+                                        </div>
+                                        <div class="flex gap-y-2 md:gap-y-3">
+                                            <p>Стоимость</p>
+                                            <div class="mb-1 grow border-b-2 border-dotted border-[rgba(60,61,65,0.3)]"></div>
+                                            <p>2 000 руб.</p>
+                                        </div>
+                                        <div class="flex gap-y-2 md:gap-y-3">
+                                            <p>Индивидуальная</p>
+                                            <div class="mb-1 grow border-b-2 border-dotted border-[rgba(60,61,65,0.3)]"></div>
+                                            <p>1-10 чел.</p>
+                                        </div>
+                                    </div>
+                                    <button class="mt-auto flex w-full items-center justify-center gap-3 rounded bg-[#E25C45] p-5 text-sm font-semibold text-white transition duration-500 hover:bg-[#f75134] md:text-base"><img src="assets/img/ticket.svg" alt="" class="shrink-0" /> Купить билет</button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide overflow-hidden flex flex-col h-auto rounded-sm bg-white text-[#3C3D41] shadow-[0_4px_30px_0_rgba(0,0,0,0.12)]">
+                                <div class="relative">
+                                    <img src="assets/img/img3.png" alt="" class="aspect-[16/11] w-full object-cover" />
+                                    <div class="absolute top-4 left-3 w-fit rounded bg-[rgba(255,255,255,0.21)] px-3.5 py-0.5 text-xs font-semibold uppercase tracking-[0.15em] text-[rgba(255,255,255,0.85)] backdrop-blur-md max-md:hidden lg:py-1.5 lg:text-sm">Экскурсия №3</div>
+                                </div>
+                                <div class="p-2 pt-0 md:p-8 flex flex-col grow">
+                                    <h3 class="mt-5 text-2xl font-medium md:text-3xl">Кострома Кинематографическая</h3>
+                                    <p class="mt-4 text-sm md:text-base">На средства костромских купцов и промышленников были построены в Костроме учебные заведения, больницы</p>
+                                    <div class="mb-4 md:mb-7 mt-4 flex flex-col gap-2 text-sm md:mt-7 md:text-base">
+                                        <div class="flex gap-y-2 md:gap-y-3">
+                                            <p>Продолжительность</p>
+                                            <div class="mb-1 grow border-b-2 border-dotted border-[rgba(60,61,65,0.3)]"></div>
+                                            <p>2 часа</p>
+                                        </div>
+                                        <div class="flex gap-y-2 md:gap-y-3">
+                                            <p>Начало</p>
+                                            <div class="mb-1 grow border-b-2 border-dotted border-[rgba(60,61,65,0.3)]"></div>
+                                            <p>11:00, 16:00</p>
+                                        </div>
+                                        <div class="flex gap-y-2 md:gap-y-3">
+                                            <p>Стоимость</p>
+                                            <div class="mb-1 grow border-b-2 border-dotted border-[rgba(60,61,65,0.3)]"></div>
+                                            <p>2 000 руб.</p>
+                                        </div>
+                                        <div class="flex gap-y-2 md:gap-y-3">
+                                            <p>Индивидуальная</p>
+                                            <div class="mb-1 grow border-b-2 border-dotted border-[rgba(60,61,65,0.3)]"></div>
+                                            <p>1-10 чел.</p>
+                                        </div>
+                                    </div>
+                                    <button class="mt-auto flex w-full items-center justify-center gap-3 rounded bg-[#E25C45] p-5 text-sm font-semibold text-white transition duration-500 hover:bg-[#f75134] md:text-base"><img src="assets/img/ticket.svg" alt="" class="shrink-0" /> Купить билет</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                
+                </div>
+            </div>            
+
+            <div class="g-full Prose bg-about max-md:bg-[url(../img/aboutBg.png)] max-md:bg-cover pb-14 md:pb-40 pt-10 md:pt-28">
+                <div class="flex max-md:flex-col gap-x-12 wrapper ">
+                    <div class="text-[#3C3D41] flex-1 max-md:order-1">
+                        <p class="font-medium text-3xl lg:text-5xl font-CormorantUnicase max-md:hidden max-md:mt-6">О нас</p>
+                        <p class="mt-6 md:mt-4 max-md:text-sm">Забота о ближнем, на протяжении всей истории Костромской земли, была одной из важных черт костромского предпринимательства. Жертвовать на церкви и монастыри вообще считалось святой обязанностью. Славной традицией в купеческо-промышленной среде было строительство новых храмов, пожертвования на стеновую роспись, отлив колоколов и покупка церковной утвари.На средства костромских купцов и промышленников были построены в Костроме учебные заведения, больницы, богадельни, приюты для детей, ночлежные дома, народные читальни, театры.</p>
+                        <div class="flex flex-col gap-1.5 md:gap-4 mt-4 md:mt-11">                        
+                            <a href="#" download class="hover-link flex gap-x-3 items-center font-semibold text-[#E25C45] uppercase"><img src="assets/img/sert.svg" alt="">Сертификат 1</a>
+                            <a href="#" download class="hover-link flex gap-x-3 items-center font-semibold text-[#E25C45] uppercase"><img src="assets/img/sert.svg" alt="">Сертификат 2</a>
+                        </div>
+                        <div class="w-full h-[1px] bg-[#A6A297] my-6 md:my-12"></div>
+                        <p class="font-medium text-4xl">Что вас ждет</p>
+                        <ul class="flex flex-col  list-inside mt-7 gap-5 md:gap-7" >
+                            <li class="before:w-3 before:aspect-square before:bg-[#E25C45] before:shrink-0 flex gap-4 items-start before:mt-1.5 before:rounded-full":>Уникальные обзорные экскурсии города с увлекательными занятиями и посещением музеев и памятников архитектуры</li>
+                            <li class="before:w-3 before:aspect-square before:bg-[#E25C45] before:shrink-0 flex gap-4 items-start before:mt-1.5 before:rounded-full":>Уникальные обзорные экскурсии города с увлекательными занятиями и посещением музеев и памятников архитектуры</li>
+                            <li class="before:w-3 before:aspect-square before:bg-[#E25C45] before:shrink-0 flex gap-4 items-start before:mt-1.5 before:rounded-full":>Уникальные обзорные экскурсии города с увлекательными занятиями и посещением музеев и памятников архитектуры</li>
+                        </ul>
+                    </div>
+                    <div class="flex-[0.75] ">
+                        <p class="font-medium text-3xl lg:text-5xl font-CormorantUnicase mb-6 md:hidden">О нас</p>
+                        <img src="assets/img/img4.png" alt="" class="w-full ">
+                        <img src="assets/img/img4.png" alt="" class="w-full mt-6 max-md:hidden">
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 md:mt-24">
+                <p class="font-medium text-3xl lg:text-5xl text-[#3C3D41] font-CormorantUnicase">Товары</p>
+                <div class="swiper mySwiper3 h-auto mt-7 md:mt-11">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide text-[#3C3D41] flex flex-col h-auto ">
+                            <div class="aspect-3/4"><img src="assets/img/img8.png" alt="" class="w-full object-contain aspect-[5/6] object-center"></div>
+                            <p class="font-medium text-2xl mt-7">Икона именная святых освещена Святая Аглая</p>
+                            <div class="mt-5 md:mt-4 flex flex-col gap-y-2  md:gap-y-1 text-sm md:text-base text-[rgba(60,61,65,0.66)]">
+                                <div class="flex  ">
+                                    <p>Длина</p>
+                                    <div class="mb-1 grow border-b-2 border-dotted border-[rgba(60,61,65,0.3)]"></div>
+                                    <p>25 см</p>
+                                </div>                                
+                                <div class="flex  ">
+                                    <p>Ширина</p>
+                                    <div class="mb-1 grow border-b-2 border-dotted border-[rgba(60,61,65,0.3)]"></div>
+                                    <p>21 см</p>
+                                </div>                                
+                            </div>
+                            <p class="text-2xl font-semibold mt-6 md:mt-7 mb-7 md:mb-5">2 320 ₽<span class="text-[rgba(60,61,65,0.66)] ml-4 text-base font-normal line-through">3 000 ₽</span></p>
+                            <button class="mt-auto self-end uppercase flex w-full items-center justify-center gap-3 rounded bg-[#E25C45] p-5 max-md:text-sm font-semibold text-white transition duration-500 hover:bg-[#f75134]  md:text-base">Подробнее</button>
+                        </div>                        
+                        <div class="swiper-slide text-[#3C3D41] flex flex-col h-auto ">
+                            <div class="aspect-3/4"><img src="assets/img/img9.png" alt="" class="w-full object-contain aspect-[5/6] object-center"></div>
+                            <p class="font-medium text-2xl mt-7">Икона именная святых освещена Святая Аглая</p>
+                            <div class="mt-5 md:mt-4 flex flex-col gap-y-2  md:gap-y-1 text-sm md:text-base text-[rgba(60,61,65,0.66)]">
+                                <div class="flex  ">
+                                    <p>Длина</p>
+                                    <div class="mb-1 grow border-b-2 border-dotted border-[rgba(60,61,65,0.3)]"></div>
+                                    <p>25 см</p>
+                                </div>                                
+                                <div class="flex  ">
+                                    <p>Ширина</p>
+                                    <div class="mb-1 grow border-b-2 border-dotted border-[rgba(60,61,65,0.3)]"></div>
+                                    <p>21 см</p>
+                                </div>                                
+                            </div>
+                            <p class="text-2xl font-semibold mt-6 md:mt-7 mb-7 md:mb-5">2 320 ₽<span class="text-[rgba(60,61,65,0.66)] ml-4 text-base font-normal line-through">3 000 ₽</span></p>
+                            <button class="mt-auto self-end uppercase flex w-full items-center justify-center gap-3 rounded bg-[#E25C45] p-5 max-md:text-sm font-semibold text-white transition duration-500 hover:bg-[#f75134]  md:text-base">Подробнее</button>
+                        </div>                        
+                        <div class="swiper-slide text-[#3C3D41] flex flex-col h-auto ">
+                            <div class="aspect-3/4"><img src="assets/img/img10.png" alt="" class="w-full object-contain aspect-[5/6] object-center"></div>
+                            <p class="font-medium text-2xl mt-7">Икона именная святых освещена Святая Аглая</p>
+                            <div class="mt-5 md:mt-4 flex flex-col gap-y-2  md:gap-y-1 text-sm md:text-base text-[rgba(60,61,65,0.66)]">
+                                <div class="flex  ">
+                                    <p>Длина</p>
+                                    <div class="mb-1 grow border-b-2 border-dotted border-[rgba(60,61,65,0.3)]"></div>
+                                    <p>25 см</p>
+                                </div>                                
+                                <div class="flex  ">
+                                    <p>Ширина</p>
+                                    <div class="mb-1 grow border-b-2 border-dotted border-[rgba(60,61,65,0.3)]"></div>
+                                    <p>21 см</p>
+                                </div>                                
+                            </div>
+                            <p class="text-2xl font-semibold mt-6 md:mt-7 mb-7 md:mb-5">2 320 ₽<span class="text-[rgba(60,61,65,0.66)] ml-4 text-base font-normal line-through">3 000 ₽</span></p>
+                            <button class="mt-auto self-end uppercase flex w-full items-center justify-center gap-3 rounded bg-[#E25C45] p-5 max-md:text-sm font-semibold text-white transition duration-500 hover:bg-[#f75134]  md:text-base">Подробнее</button>
+                        </div>                        
+                        <div class="swiper-slide text-[#3C3D41] flex flex-col h-auto ">
+                            <div class="aspect-3/4"><img src="assets/img/img11.png" alt="" class="w-full object-contain aspect-[5/6] object-center"></div>
+                            <p class="font-medium text-2xl mt-7">Икона именная святых освещена Святая Аглая</p>
+                            <div class="mt-5 md:mt-4 flex flex-col gap-y-2  md:gap-y-1 text-sm md:text-base text-[rgba(60,61,65,0.66)]">
+                                <div class="flex  ">
+                                    <p>Длина</p>
+                                    <div class="mb-1 grow border-b-2 border-dotted border-[rgba(60,61,65,0.3)]"></div>
+                                    <p>25 см</p>
+                                </div>                                
+                                <div class="flex  ">
+                                    <p>Ширина</p>
+                                    <div class="mb-1 grow border-b-2 border-dotted border-[rgba(60,61,65,0.3)]"></div>
+                                    <p>21 см</p>
+                                </div>                                
+                            </div>
+                            <p class="text-2xl font-semibold mt-6 md:mt-7 mb-7 md:mb-5">2 320 ₽<span class="text-[rgba(60,61,65,0.66)] ml-4 text-base font-normal line-through">3 000 ₽</span></p>
+                            <button class="mt-auto self-end uppercase flex w-full items-center justify-center gap-3 rounded bg-[#E25C45] p-5 max-md:text-sm font-semibold text-white transition duration-500 hover:bg-[#f75134]  md:text-base">Подробнее</button>
+                        </div>                        
+                    </div>                    
+                </div>
+            </div>
+
+            <div class="Prose g-full mt-20 md:mt-32 bg-[url(../img/contactBg.png)] bg-cover pb-12 md:pb-24">
+                <div class="wrapper flex gap-x-20 text-[#3C3D41] max-md:flex-col">
+                    <div class="flex-[0.75] w-full">
+                        <p class="font-medium text-3xl lg:text-5xl text-[#3C3D41] font-CormorantUnicase mb-8 md:hidden">Контакты</p>
+                        <img src="assets/img/img12.png" class="w-full" alt="">
+                    </div>
+                    <div class="flex-1">
+                        <p class="font-medium text-3xl lg:text-5xl text-[#3C3D41] font-CormorantUnicase md:mt-6 max-md:hidden">Контакты</p>
+                        <div class="flex gap-x-12 gap-y-4 md:mt-7 mt-9 flex-wrap max-md:flex-col">
+                            <div>
+                                <p class="text-xs md:text-base text-[rgba(60,61,65,0.65)]">Оксана Ланшакова</p>
+                                <div class="flex gap-2 items-center md:mt-1">
+                                    <a href="#" class="hover-link font-medium text-3xl font-CormorantUnicase">8-920-640-6955</a>
+                                    <a href="#" class="hover-link"><img src="assets/img/telegram.svg" alt=""></a>
+                                    <a href="#" class="hover-link"><img src="assets/img/whatsaap.svg" alt=""></a>
+                                </div>
+                            </div>                            
+                            <div>
+                                <p class="text-xs md:text-base text-[rgba(60,61,65,0.65)]">Ольга</p>
+                                <div class="flex gap-2 items-center md:mt-1">
+                                    <a href="#" class="hover-link font-medium text-3xl font-CormorantUnicase">8-910-803-0303</a>
+                                    <a href="#" class="hover-link"><img src="assets/img/telegram.svg" alt=""></a>
+                                    <a href="#" class="hover-link"><img src="assets/img/whatsaap.svg" alt=""></a>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="flex gap-4 items-center mt-10 md:mt-8"><a href="#" class="hover-link"><img src="assets/img/vk.svg" alt="" class="w-11 md:w-8"></a><p class="">Наша группа Вконтакте</p></div>
+                        <div class="w-full h-0 md:h-[1px] bg-[#A6A297] mt-11 mb-8 md:my-12"></div>
+                        <h3 class="font-medium text-3xl md:text-4xl">Подобрать экскурсию</h3>
+                        <form action="#" class="mt-5 grid md:grid-cols-6 gap-3 md:gap-5">
+                            <input type="text" class="py-[1.125rem] px-5 w-full placeholder:text-[#808184] text-[#3C3D41] col-span-1 md:col-span-2 bg-white rounded border border-solid border-[#E6E6E6] focus:ring-[#E25C45] focus:border-[#E25C45]" placeholder="Имя">
+                            <input type="text" class="py-[1.125rem] px-5 w-full placeholder:text-[#808184] text-[#3C3D41] col-span-1 md:col-span-2 bg-white rounded border border-solid border-[#E6E6E6] focus:ring-[#E25C45] focus:border-[#E25C45]" placeholder="Телефон">
+                            <input type="text" class="py-[1.125rem] px-5 w-full placeholder:text-[#808184] text-[#3C3D41] col-span-1 md:col-span-2 bg-white rounded border border-solid border-[#E6E6E6] focus:ring-[#E25C45] focus:border-[#E25C45]" placeholder="Email">
+                            <input type="date" class="py-[1.125rem] px-5 w-full placeholder:text-[#808184] text-[#3C3D41] col-span-1 md:col-span-3 bg-white rounded border border-solid border-[#E6E6E6] focus:ring-[#E25C45] focus:border-[#E25C45]" placeholder="Дата">
+                            <select type="text" class="py-[1.125rem] px-5 w-full placeholder:text-[#808184] text-[#3C3D41] col-span-1 md:col-span-3 bg-white rounded border border-solid border-[#E6E6E6] focus:ring-[#E25C45] focus:border-[#E25C45]">
+                                <option>Экскурсия 1</option>
+                                <option>Экскурсия 2</option>
+                                <option>Экскурсия 3</option>
+                            </select>
+                            <label class="inline-flex  md:col-span-3 mt-7 md:mt-6"><input type="checkbox" class="mr-4 focus:ring-[#E25C45] focus:border-[#E25C45] checked:bg-[#E25C45]">Я согласен с условиями <a href="#" class="hover-link contents text-[#E25C45]">Политики конфиденциальности</a></label>
+                            <button class="md:justify-self-end md:col-span-3 mt-2.5 md:mt-6 flex w-full items-center md:max-w-[259px] justify-center rounded bg-[#E25C45] p-5 font-semibold text-white transition duration-500 hover:bg-[#f75134]">Отправить</button>
+                        </form>
+                    </div>
+                </div>                
+            </div>
+
+        </main>
+        <footer class="footer Prose bg-[#2E2F35] pb-4 md:pb-32 pt-7 md:pt-12">
+            <div class="flex items-center justify-between gap-4 py-2.5 lg:py-5">
+                <div class="flex items-center gap-x-5">
+                    <img src="assets/img/logo.svg" alt="" />
+                    <div>
+                        <p class="font-CormorantUnicase text-2xl font-semibold text-white">Экскурсии в Костроме</p>
+                        <p class="mt-1 text-[rgba(255,255,255,0.54)]">Обзорые экскурсии города</p>
+                    </div>
+                </div>
+                <nav class="flex items-center gap-6 text-[0.9375rem] max-md:hidden tracking-wider text-white max-lg:hidden">
+                    <a href="#" class="uppercase hover-link">гЛАВНАЯ</a>
+                    <a href="#" class="uppercase hover-link">Экскурсии</a>
+                    <a href="#" class="uppercase hover-link">кАТАЛОГ товаров</a>
+                    <a href="#" class="uppercase hover-link">О нас</a>
+                    <a href="#" class="uppercase hover-link">Отзывы</a>
+                    <a href="#" class="uppercase hover-link">Помощь</a>
+                    <a href="#" class="uppercase hover-link">кОНТАКТЫ</a>
+                </nav>
+            </div>
+            <div class="w-full h-[1px] bg-[rgba(142,176,186,0.49)] mt-7 mb-5 md:mt-11 md:mb-7"></div>
+            <div class="flex gap-x-4 gap-y-2.5 max-md:flex-col justify-between">
+                <p class="max-md:text-xs text-[rgba(255,255,255,0.54)]">© 2023. Экскурсии в Костроме</p>
+                <a href="#" class="max-md:text-xs text-[rgba(255,255,255,0.54)] hover-link">Политика конфиденциальности</a>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script src="assets/scripts/swipers.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
+    </body>
 </html>
