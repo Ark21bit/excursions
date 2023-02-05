@@ -713,6 +713,10 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
 .flex {
   display: flex;
 }
