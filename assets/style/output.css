@@ -1253,6 +1253,10 @@ video {
   transition-duration: 100ms;
 }
 
+.duration-\[0ms\] {
+  transition-duration: 0ms;
+}
+
 .ease-linear {
   transition-timing-function: linear;
 }
@@ -1422,6 +1426,18 @@ body {
 
 .group.active .group-\[\.active\]\:delay-500 {
   transition-delay: 500ms;
+}
+
+.group.active .group-\[\.active\]\:delay-\[\] {
+  transition-delay: ;
+}
+
+.group.active .group-\[\.active\]\:delay-\[0\] {
+  transition-delay: 0;
+}
+
+.group.active .group-\[\.active\]\:delay-\[0ms\] {
+  transition-delay: 0ms;
 }
 
 @media not all and (min-width: 1024px) {
